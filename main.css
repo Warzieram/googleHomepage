@@ -1,0 +1,187 @@
+body{
+    color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+
+#upperBtns{
+    display: flex;
+    padding: 20px;
+}
+
+.RightBlock{
+    margin-left: auto;
+}
+
+.mosaique{
+    height: 24px;
+    width: 24px;
+}
+
+.RightBlock a{
+    margin: 0px 5px 0px 5px;
+}
+
+
+body{
+    background-color: #202124;
+    overflow: hidden;
+}
+
+a, a:visited{
+    color: #7ac3ff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 300px;
+
+}
+
+.SearchBar{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    margin: 20px 0 0 0;
+    width: 638px;
+    max-width: 584px;
+    border-radius: 30px;
+}
+
+textarea{
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    width: 330px;
+
+}
+
+.SearchBtns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SearchBtns button{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none
+}
+.available{
+    display: inline-block;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#171717 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.country{
+    border-bottom: #313335 1px solid;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.Block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Block p{
+    padding: 0px 10px;
+}
+.BlocksContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Block img{
+    padding-top: 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.SearchBar svg{
+    height: 24px;
+    width: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.micro{
+    margin-left: auto;
+}
+
+.appareil{
+    margin-right: 10px;
+}
+
+.loupe{
+    margin-left: 10px;
+}
+
+.LeftBlock a, .RightBlock a{
+    color: #e8e8e8;
+}
+
+.Third{
+    padding-left:  100px;
+}
